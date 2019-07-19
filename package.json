@@ -1,0 +1,22 @@
+{
+  "name": "pubsub-monitor-topology",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@koa/cors": "2",
+    "aws-sdk": "^2.479.0",
+    "koa": "^2.7.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "pm2": "^3.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2-runtime server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
