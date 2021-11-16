@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "@koa/cors": "2",
-    "aws-sdk": "^2.479.0",
+    "aws-sdk": "^2.814.0",
     "koa": "^2.7.0",
     "koa-json": "^2.0.2",
     "koa-router": "^7.4.0"
